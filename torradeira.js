@@ -50,3 +50,11 @@ function checkValues(){
 function sendToDataBase(){
     console.log("enviando dados")
 }
+//Exemplo 3
+
+enviarDados()
+
+function enviarDados(){
+    let nomeDoBanco = "Bradesco"
+    console.log("salvando dados em: " + nomeDoBanco)
+}
